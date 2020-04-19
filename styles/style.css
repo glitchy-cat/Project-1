@@ -1,5 +1,22 @@
-
-ul {
+body {
     font-family: Arial, Helvetica, sans-serif;
-    color: purple
+    background-color: deepskyblue;
+
+}
+.topnav ul {
+    display: flex;
+
+}
+
+.topnav li {
+    list-style-type: none;
+    border: 5px black solid;
+    padding: 5px;
+    margin: 10px
+    
+}
+
+.topnav {
+    border: 5px solid black;
+
 }
