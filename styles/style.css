@@ -92,12 +92,17 @@ main {
 .container-1 {
     display:flex;
     justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #4C5D6C;
     
    
 }
 .container-1 p {
     
-    border: 1px black solid ;
-    background-color: #4C5D6C;
+    border: 1px black solid;
+    background-color: rgba(255, 0, 0, 0, 2);
     padding: 10px;
+    height: 200px;
+    width: 80vw;
 }
