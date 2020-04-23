@@ -1,0 +1,54 @@
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #151D2C;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 22px 24px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 100px; /* Add a top margin to avoid content overlay */
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    color: beige;
+  }
+
+  body {
+    background-image: url("../images/text-background.png");
+    height: 500px;
+
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#coverimg
+{
+    background-image: url("../images/bulb-plant-medium.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
